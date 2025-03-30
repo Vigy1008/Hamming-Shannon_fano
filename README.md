@@ -6,6 +6,7 @@ To compute the Average Codeword Length, Entropy, Efficiency, Redundancy, and Var
 ## Tools Required:
 python IDE with Numpy and Scipy.
 ## Program:
+```
 import numpy as np
 import math 
 L  = 0
@@ -45,16 +46,14 @@ print(f"Entropy is : {hs}")
 print(f"Efficiency is : {eff*100} %")
 print(f"Redudancy is : {red}")
 print(f"Variance is : {var}")
+```
 
 ## Output:
 ![image](https://github.com/user-attachments/assets/f1b1ec95-6b46-4a07-b5ef-65637040dcde)
 
-
 ## Calculation:
 ![WhatsApp Image 2025-03-30 at 13 34 33_1598cd79](https://github.com/user-attachments/assets/3329687f-d868-4ff8-9a4f-147b85f8dc67)
 ![WhatsApp Image 2025-03-30 at 13 34 33_c6d2711b](https://github.com/user-attachments/assets/77657bc5-d3db-40dc-b046-26a671a342b7)
-
-
 
 ## Results:
 For the given probabilities 0.125,0.0625,0.25,0.0625,0.125,0.125,0.25
